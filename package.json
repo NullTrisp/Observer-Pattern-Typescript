@@ -1,0 +1,23 @@
+{
+  "name": "observer-typescript",
+  "version": "1.0.0",
+  "description": "Observer Design Pattern in Typescript",
+  "main": "observer.js",
+  "scripts": {
+    "start": "tsc --build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NullTrisp/Observer-Pattern-Typescript.git"
+  },
+  "keywords": [
+    "Typescript",
+    "Observer"
+  ],
+  "author": "Nicolás Calvache Jimenez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NullTrisp/Observer-Pattern-Typescript/issues"
+  },
+  "homepage": "https://github.com/NullTrisp/Observer-Pattern-Typescript#readme"
+}
