@@ -16,7 +16,7 @@ export default class WeatherStation implements Subject {
     return this;
   }
 
-  public registerObeserver(o: Observer): void {
+  public registerObserver(o: Observer): void {
     this.observers.push(o);
   }
 

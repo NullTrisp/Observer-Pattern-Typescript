@@ -2,7 +2,7 @@ import { Observer, Subject } from "../Interfaces";
 
 export default class Fan implements Observer {
   constructor(weatherStation: Subject) {
-    weatherStation.registerObeserver(this);
+    weatherStation.registerObserver(this);
   }
 
   public update(temp: number): void {
